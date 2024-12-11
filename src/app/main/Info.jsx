@@ -116,7 +116,31 @@ const Info = () => {
             
         ]}
     />
+    <div>
+        <div className='shadow-2xl p-3  ml-2 mr-2 '>
+            <p>hi</p>
+        </div>
+    </div>
         <CardStackDemo />
+
+        <div className='bg-gray-800 w-full  text-white pt-5 pb-5'>
+        <h1 className='ml-5 mt-2 font-bold text-[30px]'>Contact Us for More Details</h1>
+
+        <div className='ml-5 mb-1'>
+            <div className='flex '>
+                <p>Mobile :</p>
+                <p>+91 9443592416</p>
+            </div>
+            <div className='flex '>
+                <p>Email :</p>
+                <p>+91 9443592416</p>
+            </div>
+            <div className='flex '>
+                <p>Address :</p>
+                <p>2/205,Kamaraj Road,Kumbakonam.</p>
+            </div>
+        </div>
+        </div>
     </div>
 
   )
